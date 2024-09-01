@@ -22,6 +22,7 @@ const AddExpense = ({isexpensemodal,handleExpenseModalClose,onFinish}) => {
             <Select.Option value="Dinner">Dinner</Select.Option>
             <Select.Option value="Party">Party</Select.Option>
             <Select.Option value="Travel">Travel</Select.Option>
+            <Select.Option value="Shopping">Shopping</Select.Option>
           </Select>
         </Form.Item>
         <Form.Item>
