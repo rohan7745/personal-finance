@@ -1,0 +1,80 @@
+.head {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.80rem;
+    align-items: center;
+    margin-bottom: 1rem;
+    width: 99%;
+}
+
+.input-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem;
+    padding: 0rem 0.5rem;
+}
+
+.input-flex input {
+    width: 100%;
+    padding: 0rem;
+    border: 0;
+    height: 30px;
+}
+
+.input-flex input:focus {
+    outline: none;
+}
+
+.export {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    width: 400px;
+}
+
+.select-input {
+    width: 25%;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    box-shadow: var(--shadow);
+    border-radius: 0.5rem !important;
+    padding: 0.2rem 0.5rem;
+}
+
+.select-input div {
+    border: 1px solid #fff !important;
+}
+
+.table-container {
+    margin-right: 10px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    box-shadow: var(--shadow);
+}
+
+.table-container::-webkit-scrollbar {
+    display: none;
+}
+
+/* Media queries for mobile view */
+@media (max-width: 768px) {
+
+    .my-table{
+        display: flex;
+        flex-direction: column;
+    }
+    .table-container {
+        width: 100%;
+        overflow-x: auto; /* Make the table scrollable horizontally */
+    }
+
+    .ant-table-cell:not(:nth-child(2)):not(:nth-child(4)):not(:nth-child(5)) {
+        display: none; /* Show only Amount, Type, Date columns */
+    }
+}

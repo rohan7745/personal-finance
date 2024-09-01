@@ -1,0 +1,28 @@
+/* Base Styles for Row and Card */
+.card {
+    box-shadow: var(--shadow);
+    margin: 0.80rem;
+    border-radius: 0.5rem;
+    min-width: 280px;
+    flex: 1;
+  }
+  
+  .ant-card-head-title {
+    margin: 0 !important;
+    font-weight: 500;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem auto;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+    gap: 12px;
+  }
+  
+  .card p {
+    margin: 0;
+  }
+  
+  

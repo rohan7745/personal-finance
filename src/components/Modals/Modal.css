@@ -1,0 +1,97 @@
+/* Base styles for the modal */
+.ant-modal {
+    max-width: 100%;
+  }
+  
+  /* Media queries for different screen sizes */
+  
+  /* For small screens (mobile devices) */
+  @media (max-width: 576px) {
+    .ant-modal {
+      width: 90%;
+      margin: 0 auto;
+    }
+  
+    .custom-input1 {
+      width: 100%;
+    }
+  
+    .select-input-2 {
+      width: 100%;
+    }
+  
+    .btn-blue {
+      width: 100%;
+      padding: 0.75rem;
+      font-size: 1rem;
+    }
+  
+    .ant-modal-header {
+      font-size: 1.25rem;
+    }
+  
+    .ant-modal-body {
+      padding: 1rem;
+    }
+  }
+  
+  /* For medium screens (tablets) */
+  @media (min-width: 576px) and (max-width: 768px) {
+    .ant-modal {
+      width: 80%;
+      margin: 0 auto;
+    }
+  
+    .custom-input1 {
+      width: 100%;
+    }
+  
+    .select-input-2 {
+      width: 100%;
+    }
+  
+    .btn-blue {
+      width: 100%;
+      padding: 0.75rem;
+      font-size: 1rem;
+    }
+  
+    .ant-modal-header {
+      font-size: 1.5rem;
+    }
+  
+    .ant-modal-body {
+      padding: 1.5rem;
+    }
+  }
+  
+  /* For large screens (desktops) */
+  @media (min-width: 768px) {
+    .ant-modal {
+      width: 60%;
+      margin: 0 auto;
+    }
+  
+    .custom-input1 {
+      width: 100%;
+    }
+  
+    .select-input-2 {
+      width: 100%;
+    }
+  
+    .btn-blue {
+      width: auto;
+      padding: 0.75rem 1.5rem;
+      font-size: 1rem;
+    }
+  
+    .ant-modal-header {
+      font-size: 1.75rem;
+    }
+  
+    .ant-modal-body {
+      padding: 2rem;
+    }
+  }
+  

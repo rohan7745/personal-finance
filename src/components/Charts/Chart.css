@@ -1,0 +1,63 @@
+.chart-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 20px;
+    gap: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .chart {
+    flex: 1;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    margin-left: 20px;
+    height: 380px;
+  }
+  
+  .pie-chart {
+    box-shadow: var(--shadow);
+    margin-right: 20px;
+    border-radius: 8px;
+    padding: 15px;
+    height: 387px;
+    width: 330px;
+  }
+  
+  .chart-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .chart-wrapper {
+      flex-direction: column; /* Stack the charts vertically for mobile view */
+      gap: 20px; /* Reduce gap between charts on mobile */
+      margin: 0; /* Remove top and bottom margin on mobile */
+    }
+  
+    .chart {
+      margin-left: 0; /* Remove left margin for mobile view */
+      margin-right: 0; /* Remove right margin for mobile view */
+      height: 300px; /* Adjust height for mobile view if needed */
+      width: 100%; /* Ensure full width on mobile */
+    }
+  
+    .pie-chart {
+      margin-right: 0; /* Remove right margin for mobile view */
+      height: 300px; /* Adjust height for mobile view if needed */
+      width: 100%; /* Ensure full width on mobile */
+    }
+    .chart-2{
+        margin-left: 40px;
+    }
+  }
+  
